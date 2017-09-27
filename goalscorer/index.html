@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Goalscorer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content-header">
+        <h1>Goalscorer Markets</h1>
+        <div class="header-icons">
+          <i class="fa fa-paw" aria-hidden="true"></i>
+          <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="table">
+        <div class="row header" id="top">
+          <div class="name-left">Liverpool</div>
+          <div class="cell-group" id="first">
+            <div class="cell">First</div>
+            <div class="cell">Last</div>
+            <div class="cell">Anytime</div>
+            <div class="cell">2 Or More</div>
+            <div class="cell">Hat-trick</div>
+            <div class="cell">1<sup>st</sup> And Last</div>
+            <div class="cell">1<sup>st</sup> Or Last</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Daniel Sturridge</div>
+          <div class="cell-group">
+            <div class="cell score">4.33</div>
+            <div class="cell score">4.33</div>
+            <div class="cell score">1.83</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">23.00</div>
+            <div class="cell score">11.00</div>
+            <div class="cell score">2.62</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Mario Balotelli</div>
+          <div class="cell-group">
+            <div class="cell score">5.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">2.00</div>
+            <div class="cell score">6.00</div>
+            <div class="cell score">29.00</div>
+            <div class="cell score">13.00</div>
+            <div class="cell score">3.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Raheem Sterling</div>
+          <div class="cell-group">
+            <div class="cell score">5.50</div>
+            <div class="cell score">5.50</div>
+            <div class="cell score">2.10</div>
+            <div class="cell score">6.50</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">3.30</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Rickie Lambert</div>
+          <div class="cell-group">
+            <div class="cell score">5.50</div>
+            <div class="cell score">5.50</div>
+            <div class="cell score">2.10</div>
+            <div class="cell score">6.50</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">3.30</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Fabio Borini</div>
+          <div class="cell-group">
+            <div class="cell score">7.00</div>
+            <div class="cell score">7.00</div>
+            <div class="cell score">2.45</div>
+            <div class="cell score">9.50</div>
+            <div class="cell score">71.00</div>
+            <div class="cell score">23.00</div>
+            <div class="cell score">4.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Philippe Coutinho</div>
+          <div class="cell-group">
+            <div class="cell score">7.00</div>
+            <div class="cell score">7.00</div>
+            <div class="cell score">2.45</div>
+            <div class="cell score">9.50</div>
+            <div class="cell score">71.00</div>
+            <div class="cell score">23.00</div>
+            <div class="cell score">4.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Adam Lallana</div>
+          <div class="cell-group">
+            <div class="cell score">7.50</div>
+            <div class="cell score">7.50</div>
+            <div class="cell score">2.605</div>
+            <div class="cell score">11.50</div>
+            <div class="cell score">81.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">4.30</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Jordan Henderson</div>
+          <div class="cell-group">
+            <div class="cell score">8.00</div>
+            <div class="cell score">8.00</div>
+            <div class="cell score">2.70</div>
+            <div class="cell score">5.50</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">16.00</div>
+            <div class="cell score">4.45</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Jordan Ibe</div>
+          <div class="cell-group">
+            <div class="cell score">8.50</div>
+            <div class="cell score">8.50</div>
+            <div class="cell score">2.80</div>
+            <div class="cell score">12.00</div>
+            <div class="cell score">101.00</div>
+            <div class="cell score">29.00</div>
+            <div class="cell score">4.80</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Cameron Brannagan</div>
+          <div class="cell-group">
+            <div class="cell score">9.00</div>
+            <div class="cell score">9.00</div>
+            <div class="cell score">2.80</div>
+            <div class="cell score">13.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">29.00</div>
+            <div class="cell score">5.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Lazar Markovitz</div>
+          <div class="cell-group">
+            <div class="cell score">10.00</div>
+            <div class="cell score">10.00</div>
+            <div class="cell score">3.10</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">5.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Alberto Moreno</div>
+          <div class="cell-group">
+            <div class="cell score">17.00</div>
+            <div class="cell score">17.00</div>
+            <div class="cell score">4.50</div>
+            <div class="cell score">29.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">71.00</div>
+            <div class="cell score">9.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Emre Can</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Glen Johnson</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Javi Manquillo</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Joe Allen</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Lucas</div>
+          <div class="cell-group">
+            <div class="cell score">26.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">5.50</div>
+            <div class="cell score">51.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">13.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Dejan Lovren</div>
+          <div class="cell-group">
+            <div class="cell score">34.00</div>
+            <div class="cell score">34.00</div>
+            <div class="cell score">6.50</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">17.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Jose Enrique</div>
+          <div class="cell-group">
+            <div class="cell score">34.00</div>
+            <div class="cell score">34.00</div>
+            <div class="cell score">6.50</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">17.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Mamadou Sakho</div>
+          <div class="cell-group">
+            <div class="cell score">34.00</div>
+            <div class="cell score">34.00</div>
+            <div class="cell score">6.50</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">17.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Kolo Taure</div>
+          <div class="cell-group">
+            <div class="cell score">41.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">7.50</div>
+            <div class="cell score">81.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">201.00</div>
+            <div class="cell score">21.00</div>
+          </div>
+        </div>
+        <div class="row header">
+          <div class="name-left">Newcastle</div>
+          <div class="cell-group">
+            <div class="cell">First</div>
+            <div class="cell">Last</div>
+            <div class="cell">Anytime</div>
+            <div class="cell">2 Or More</div>
+            <div class="cell">Hat-trick</div>
+            <div class="cell">1<sup>st</sup> And Last</div>
+            <div class="cell">1<sup>st</sup> Or Last</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Ayoze</div>
+          <div class="cell-group">
+            <div class="cell score">10.00</div>
+            <div class="cell score">10.00</div>
+            <div class="cell score">3.50</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">201.00</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">5.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Emmanuel Riviere</div>
+          <div class="cell-group">
+            <div class="cell score">12.00</div>
+            <div class="cell score">12.00</div>
+            <div class="cell score">4.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">301.00</div>
+            <div class="cell score">46.00</div>
+            <div class="cell score">6.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Adam Armstrong</div>
+          <div class="cell-group">
+            <div class="cell score">13.00</div>
+            <div class="cell score">13.00</div>
+            <div class="cell score">4.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">401.00</div>
+            <div class="cell score">46.00</div>
+            <div class="cell score">6.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Moussa Sissoko</div>
+          <div class="cell-group">
+            <div class="cell score">15.00</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">4.80</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">66.00</div>
+            <div class="cell score">8.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Remy Cabella</div>
+          <div class="cell-group">
+            <div class="cell score">15.00</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">4.80</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">66.00</div>
+            <div class="cell score">8.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Yoan Gouffran</div>
+          <div class="cell-group">
+            <div class="cell score">15.00</div>
+            <div class="cell score">15.00</div>
+            <div class="cell score">4.80</div>
+            <div class="cell score">36.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">66.00</div>
+            <div class="cell score">8.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Rolando Aarons</div>
+          <div class="cell-group">
+            <div class="cell score">17.00</div>
+            <div class="cell score">17.00</div>
+            <div class="cell score">5.00</div>
+            <div class="cell score">46.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">71.00</div>
+            <div class="cell score">8.50</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Gabriel Obertan</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">6.00</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Olivier Camen</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">6.00</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Sammy Ameobi</div>
+          <div class="cell-group">
+            <div class="cell score">21.00</div>
+            <div class="cell score">21.00</div>
+            <div class="cell score">6.00</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">11.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Mehdi Abeid</div>
+          <div class="cell-group">
+            <div class="cell score">26.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">7.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">13.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Ryan Taylor</div>
+          <div class="cell-group">
+            <div class="cell score">26.00</div>
+            <div class="cell score">26.00</div>
+            <div class="cell score">7.00</div>
+            <div class="cell score">91.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">13.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Jack Colback</div>
+          <div class="cell-group">
+            <div class="cell score">34.00</div>
+            <div class="cell score">34.00</div>
+            <div class="cell score">9.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">17.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Jonas Gutierrez</div>
+          <div class="cell-group">
+            <div class="cell score">34.00</div>
+            <div class="cell score">34.00</div>
+            <div class="cell score">9.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">151.00</div>
+            <div class="cell score">17.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Vurnon Anita</div>
+          <div class="cell-group">
+            <div class="cell score">41.00</div>
+            <div class="cell score">41.00</div>
+            <div class="cell score">9.00</div>
+            <div class="cell score">126.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">201.00</div>
+            <div class="cell score">21.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Daryl Janmaat</div>
+          <div class="cell-group">
+            <div class="cell score">51.00</div>
+            <div class="cell score">51.00</div>
+            <div class="cell score">12.00</div>
+            <div class="cell score">201.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">251.00</div>
+            <div class="cell score">26.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Lubomir Satka</div>
+          <div class="cell-group">
+            <div class="cell score">67.00</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">13.00</div>
+            <div class="cell score">301.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">301.00</div>
+            <div class="cell score">36.00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="name-left">Mike Williamson</div>
+          <div class="cell-group">
+            <div class="cell score">67.00</div>
+            <div class="cell score">67.00</div>
+            <div class="cell score">13.00</div>
+            <div class="cell score">301.00</div>
+            <div class="cell score">501.00</div>
+            <div class="cell score">301.00</div>
+            <div class="cell score">36.00</div>
+          </div>
+        </div>
+        <div class="row header"></div>
+        <div class="row">
+          <div class="name-left">No Scores</div>
+          <div class="cell-group">
+            <div class="cell score">41.00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

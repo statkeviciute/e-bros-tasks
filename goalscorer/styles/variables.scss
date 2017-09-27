@@ -1,0 +1,18 @@
+$color-main: #08AEEA;
+$gradient-to: #2AF598;
+$gradient-angle: 0deg;
+$color-2: lighten($color-main, 65%);
+
+
+@mixin linear-gradient($gradient-angle, $color-main, $gradient-to) {
+  background-color:  $color-main;
+  background-image: -webkit-linear-gradient(bottom, $gradient-to, $color-main);
+  background-image: -o-linear-gradient(bottom, $gradient-to, $color-main);
+  background-image: linear-gradient(to top, $gradient-to, $color-main);
+}
+
+@mixin small {
+  @media screen and (max-width: 450px) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+Tasks: 
+
+1.	Responsive games grid
+
+Attached is a mobile layout of a games grid.
+
+Please build the grid responsively, as you would for a real project, with widest content breakpoint of 1280px. How would you optimise the layout throughout the range?
+
+The icons are attached. Please use free stock images in place of the games graphics.
+
+
+
+2.	Responsive market template
+
+Attached is a screenshot of William Hill's Goalscorer market
+
+Please build a responsive version of William Hill’s Goalscorer market, as you would for a real project, with 320px narrowest and 646px widest content breakpoints. How would you optimise the layout throughout the range?
+
+
+Please return the completed task source codes and assets along with any non-compiled SASS/LESS files, if such frameworks have been used.
+
